@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+ }
+ 
+ html, body{
+     font-family: 'Roboto', sans-serif;
+ }
+ p{
+    font-family: 'Nunito', sans-serif;
+ }
+ .container {
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+img{
+    max-width: 100%;
+}
+ /* Banner section design */
+ .banner {
+	background: url(../images/banner.png) no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+    height: 100vh;
+    background-position: center;
+}
+.nav-bar {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 40px;
+	flex-wrap: wrap;
+}
+ .nav-menu ul {
+     display: flex;
+     gap: 70px;
+ }
+ .nav-menu ul li a{
+     color: #ffffff;
+     text-decoration: none;
+     font-family: 'Poppins', sans-serif;
+     font-weight: 700;
+     font-size: 25px;
+     transition: .3s;
+ }
+ .nav-menu ul li a:hover{
+    color: #fb4646;
+}
+.banner-content {
+	color: #ffffff;
+	max-width: 630px;
+	padding: 94px 0;
+}
+ .banner-content h2{
+     font-size: 63px;
+ 
+ }
+ .banner-content p {
+	font-size: 2rem;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 100;
+	margin: 40px 0;
+}
+ .button {
+     padding: 15px 100px;
+     background-color: #f64b3c;
+     border-radius: 25px;
+     color: #ffffff;
+     font-family: 'Montserrat', sans-serif;
+     text-transform: uppercase;
+     font-weight: 700;
+     font-size: 25px;
+     border: none;
+     cursor: pointer;
+ }
+ .button {
+	padding: 15px 100px;
+	background-color: #f64b3c;
+	border-radius: 25px;
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 25px;
+	border: none;
+	cursor: pointer;
+    transition: all .3s;
+}
+.button:hover{
+      box-shadow: 5px 10px 18px rgb(53, 49, 49);
+}
+ /* our-chef-area */
+ .our-chef-area {
+	background: url(../images/chef-bg.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+    padding: 150px;
+}
+ .our-chef-title {
+     text-align: center;
+     color: #f64b3c;
+
+ }
+ .our-chef-title h2 {
+    font-size: 60px;
+}
+.our-chef-title p {
+	font-size: 1.5rem;
+}
+ .our-chef-teams {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 110px;
+}
+.our-chef-single{
+    text-align:center;
+    color: #f64b3c;
+}
+.our-chef-single h2{
+    margin: 20px 0;
+}
+/* best berger section */
+.best-berger-section{
+    background-color: #f64b3c;
+}
+.best-berger-container, .big-berger-container {
+	display: flex;
+	justify-content: center;
+	gap: 166px;
+	padding: 150px 0;
+}
+.berger-right{
+    color: #ffffff;
+    width: 600px;
+}
+.berger-right h2{
+    font-size: 75px;
+}
+.berger-right p{
+    padding: 60px 0;
+    font-size: 28px;
+    line-height: 34px;
+}
+.berger-button {
+    background-color: #ffffff;
+    color: #f64b3c;
+}
+/* big-berger-section */
+.big-berger-section {
+	background: url(../images/chef-bg.png);
+	background-size: cover;
+	background-position: center;
+	padding: 150px;
+}
+
+.big-berger-container .berger-left{
+    color: #f64b3c;
+}
+.big-berger-container .berger-left h2{
+    color: #f64b3c;
+    font-size: 75px;
+}
+.big-berger-container .berger-left p{
+    color: #f64b3c;
+    padding: 60px 0;
+    font-size: 28px;
+    line-height: 34px;
+}
+/* Statistics-section design */
+.Statistics-section{
+    background-color: #f64b3c;
+}
+.Statistics-title {
+    text-align: center;
+    color: #fff;
+}
+.Statistics-title h2{
+    padding: 60px 0 34px 0;
+    font-size: 60px;
+}
+.Statistics-title p{
+    font-size: 25px;
+}
+.Statistics-counter {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 132px 0;
+	gap: 80px;
+	flex-wrap: wrap;
+}
+.Statistics-counter-single {
+	height: 300px;
+	width: 300px;
+	border: 5px solid #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+}
+.inner-single-content {
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+.inner-single-content h4{
+    font-size: 33px;
+}
+/* popular-pack section design */
+.popular-pack {
+    background: url(../images/chef-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.popular-pack-title {
+    text-align: center;
+    font-size: 60px;
+    color: #f64b3c;
+    margin-top: 29pxx;
+    padding-top: 60px;
+}
+.popular-packages {
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+	padding: 100px 0;
+	flex-wrap: wrap;
+}
+.single-pack {
+	background-color: #fff;
+	padding: 25px 50px;
+	text-align: center;
+	color: #f64b3c;
+	border-radius: 10px;
+    transition: .3s;
+    transform: scale(1);
+}
+.single-pack:hover {
+	box-shadow: 0px 0px 19px 0;
+    transform: scale(1.1);
+}
+.single-pack h2{
+    padding: 25px 0;
+}
+.single-pack h4 {
+    font-size: 25px;
+    padding-top: 25px;
+}
+.single-pack p{
+    padding: 20px 0;
+}
+.single-pack button {
+    padding: 10px 40px;
+    margin-bottom: 15px;
+}
+/* henderson section */
+.henderson {
+	background: url(../images/berri-handson.png) no-repeat;
+	height: 800px;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.henderson-content {
+    text-align: center;
+    color: #ffffff;
+}
+.henderson-content p{
+    font-size: 36px;
+    font-weight: 700;
+}
+.henderson-content h2 {
+    font-size: 45px;
+    padding-top: 30px;
+}
+
+/* Newsletter section*/
+.newsletter-section{
+    background: url(../images/newsletter-bg.png);
+    padding: 150px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.newsletter-content{
+   
+    color: #f54b3b;
+    text-align: center;
+}
+.news-letter-title{
+    margin-bottom: 30px;
+}
+.newsletter-content h2{
+    font-size: 75px;
+}
+.newsletter-content p {
+    font-size: 30px;
+    max-width: 740px;
+    margin: 40px 0;
+}
+form input[type="text"] {
+	width: 548px;
+	height: 50px;
+	border: none;
+	border-radius: 40px 0 0 40px;
+	padding: 10px 0 10px 30px;
+	outline: none;
+	font-size: 22px;
+}
+form input[type="button"] {
+	width: 220px;
+	height: 50px;
+	border: none;
+	border-radius: 0 40px 40px 0;
+	background-color: #f54b3b;
+	color: #fff;
+	font-size: 25px;
+	margin: 0 0 0 -8px;
+}
+form input::placeholder{
+    color: gray;
+}
+/* footer section design */
+.footer{
+    padding: 100px 0;
+    background-color: #222222;
+}
+.footer-infos {
+    display: flex;
+    color: #fff;
+    text-transform: capitalize;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.single-info-title h2{
+    font-size: 30px;
+}
+.single-info-title p {
+    max-width: 480px;
+    margin: 20px 0;
+    line-height: 25px;
+}
+.single-info ul li {
+    list-style-type: none;
+    padding: 10px 0;
+}
+.single-info ul li a, i{
+    text-decoration: none;
+    color: #fff;
+}
+.single-info ul li a:hover{
+    text-decoration: underline;
+}
+.social-info a i {
+    padding: 0 10px;
+    font-size: 30px;
+}
+
