@@ -6,11 +6,26 @@
 
 /*From tab portrait devices*/
 @media (min-width: 768px) and (max-width: 1024px){
-
+    
 }
 
 /*General mobile devices*/
 @media (max-width: 767px){
+  .banner-content {
+    max-width: 400px;;
+  }
+  .banner-content h2 {
+    font-size: 36px;
+  }
+  .banner-content p {
+    font-size: 1rem;
+    margin: 20px 0;
+    line-height: 24px;
+  }
+  .button {
+    padding: 10px 15px;
+    font-size: 16px;
+  }
   /* banner section */
     .banner {
         height: auto;
@@ -25,56 +40,82 @@
         padding: 4px 12px;
     }
   /* chef area */
+  .our-chef-area {
+    padding: 80px;
+  }
     .our-chef-teams {
             display: flex;
             justify-content: space-evenly;
             margin-top: 110px;
             flex-direction: column;
-            align-items: space-evenly;
             gap: 48px;
     }
-    /* best berger */
-    .best-berger-container, .big-berger-container {
-        gap: 95px;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+    .our-chef-title h2 {
+      font-size: 50px;
     }
-    .berger-right p {
-      padding: 23px 0;
-      font-size: 19px;
-      line-height: 24px;
-    }
-    .berger-right h2 {
-      font-size: 60px;
-    }
-    .berger-right h2 {
-      font-size: 60px;
-    }
-    /* Big berger */
-    .big-berger-section{
-      padding: 0;
-    }
-    .big-berger-container .berger-left p {
-      padding: 22px 0;
+    .our-chef-title p {
       font-size: 18px;
       line-height: 22px;
+      margin: 10px 0;
+    }  
+  
+    /* best berger */
+    .best-berger-container {
+      gap: 62px;
+      text-align: center;
     }
-    .big-berger-container .berger-left h2 {
-      color: #f64b3c;
-      font-size: 55px;
+    .best-berger-right p {
+      font-size: 20px;
+      margin: 20px 0;
+    }
+    .best-berger-right h2{
+      font-size: 50px;
+    }
+    .best-berger-left img{
+      width: 100%;
+    }
+    .best-berger {
+      padding: 80px 0;
+    }
+
+    /* big berger */
+    .big-berger-container {
+      gap: 40px;
+      flex-direction: column-reverse;
+    }
+    .big-berger-left {
+      text-align: center;
+    }
+    .big-berger-left p {
+      font-size: 20px;
+      margin: 20px 0;
+    }
+    .big-berger-right img{
+      width: 100%;
+    }
+    .big-berger-left h2 {
+      font-size: 50px;
     }
 
     /* popular package */
     .popular-pack-title {
       font-size: 40px;
     }
+    .popular-packages {
+      padding: 30px 0;
+    }
+    .popular-pack-title {
+      font-size: 21px;
+    }
+    .single-pack {
+      padding: 11px 16px;
+    }
     
     .footer-infos {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        gap: 50px;
+        gap: 50px;    
     }
     .Statistics-counter {
         padding: 60px 0;

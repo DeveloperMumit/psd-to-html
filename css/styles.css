@@ -16,9 +16,9 @@
 	margin: 0 auto;
 	padding: 0 20px;
 }
-img{
+/* img{
     max-width: 100%;
-}
+} */
  /* Banner section design */
  .banner {
 	background: url(../images/banner.png) no-repeat;
@@ -33,6 +33,9 @@ img{
 	justify-content: space-between;
 	padding-top: 40px;
 	flex-wrap: wrap;
+}
+.nav-menu ul li{
+    list-style-type: none;
 }
  .nav-menu ul {
      display: flex;
@@ -97,7 +100,7 @@ img{
 	background: url(../images/chef-bg.png) no-repeat;
 	background-size: cover;
 	background-position: center;
-    padding: 150px;
+    padding: 150px 0;
 }
  .our-chef-title {
      text-align: center;
@@ -122,53 +125,73 @@ img{
 .our-chef-single h2{
     margin: 20px 0;
 }
-/* best berger section */
-.best-berger-section{
-    background-color: #f64b3c;
-}
-.best-berger-container, .big-berger-container {
-	display: flex;
-	justify-content: center;
-	gap: 166px;
-	padding: 150px 0;
-}
-.berger-right{
-    color: #ffffff;
-    width: 600px;
-}
-.berger-right h2{
-    font-size: 75px;
-}
-.berger-right p{
-    padding: 60px 0;
-    font-size: 28px;
-    line-height: 34px;
-}
-.berger-button {
-    background-color: #ffffff;
-    color: #f64b3c;
-}
-/* big-berger-section */
-.big-berger-section {
-	background: url(../images/chef-bg.png);
-	background-size: cover;
-	background-position: center;
-	padding: 150px;
+.our-chef-single img{
+    width: 100%;
 }
 
-.big-berger-container .berger-left{
-    color: #f64b3c;
+/* best berger section */
+.best-berger{
+    background-color: #f54b3b;
+    padding: 150px 0;
+   
 }
-.big-berger-container .berger-left h2{
-    color: #f64b3c;
+.best-berger-container{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+    flex-wrap: wrap;
+}
+.best-berger-right{
+    max-width: 600px;
+}
+.best-berger-right h2{
+     font-size: 60px;
+     color: #fff;   
+} 
+.best-berger-right p{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    margin: 20px  0;
+}
+.best-berger-right .button{
+    background-color: #fff;
+    color: #f54b3b;
+  }
+/* Big berger */
+.big-berger{
+    background: url(../images/big-berger-bg.png) no-repeat;
+    padding: 150px 0;
+    background-size: cover;
+    background-position: center;
+}
+.big-berger-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.big-berger-left {
+	max-width: 600px;
+}
+.big-berger-left h2{
     font-size: 75px;
-}
-.big-berger-container .berger-left p{
     color: #f64b3c;
-    padding: 60px 0;
-    font-size: 28px;
-    line-height: 34px;
+    font-weight: 700;
+    font-family: "Archivo";
 }
+.big-berger-left p {
+	font-size: 30px;
+	color: #f64b3c;
+	font-weight: 400;
+	font-family: "Montserrat";
+	margin: 20px 0;
+}
+/* .big-berger-right img{
+    width: 100%;
+    height: auto;
+} */
 /* Statistics-section design */
 .Statistics-section{
     background-color: #f64b3c;
@@ -259,12 +282,14 @@ img{
 /* henderson section */
 .henderson {
 	background: url(../images/berri-handson.png) no-repeat;
-	height: 800px;
 	background-size: cover;
 	background-position: center;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	padding: 150px 0;
+}
+.henderson-outer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .henderson-content {
     text-align: center;
