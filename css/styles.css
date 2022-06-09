@@ -102,11 +102,12 @@
 	background-position: center;
     padding: 150px 0;
 }
- .our-chef-title {
-     text-align: center;
-     color: #f64b3c;
-
- }
+.our-chef-title {
+	text-align: center;
+	color: #f64b3c;
+	max-width: 637px;
+	margin: auto;
+}
  .our-chef-title h2 {
     font-size: 60px;
 }
@@ -126,7 +127,7 @@
     margin: 20px 0;
 }
 .our-chef-single img{
-    width: 100%;
+    /* width: 100%; */
 }
 
 /* best berger section */
@@ -204,8 +205,8 @@
     padding: 60px 0 34px 0;
     font-size: 60px;
 }
-.Statistics-title p{
-    font-size: 25px;
+.Statistics-title p {
+	font-size: 20px;
 }
 .Statistics-counter {
 	display: flex;
@@ -296,8 +297,9 @@
     color: #ffffff;
 }
 .henderson-content p{
-    font-size: 36px;
+    font-size: 25px;
     font-weight: 700;
+    font-family: "Archivo";
 }
 .henderson-content h2 {
     font-size: 45px;
@@ -315,7 +317,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
+    /* height: 100vh; */
 }
 .newsletter-content{
    
